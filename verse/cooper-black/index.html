@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cooper Black - Character Archive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Electrolize:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+  <!-- Diagonal Tessellation Background -->
+  <div class="diagonal-bg" id="diagonalBg">
+    <div class="diagonal-text-layer" data-speed="0.5">
+      <span>COOPER・BLACK・NEXUS・QUANTUM・CYBER・MATRIX・COOPER・BLACK・NEXUS・</span>
+    </div>
+    <div class="diagonal-text-layer" data-speed="0.8">
+      <span>HEROES・LEGENDS・WARRIORS・CHAMPIONS・HEROES・LEGENDS・WARRIORS・</span>
+    </div>
+    <div class="diagonal-text-layer" data-speed="1.2">
+      <span>VOID・STORM・BLADE・SHADOW・VOID・STORM・BLADE・SHADOW・</span>
+    </div>
+  </div>
+
+  <!-- Tessellation Tiles -->
+  <div class="tessellation-tiles" id="tessellationTiles"></div>
+  
+  <!-- Particle Effects -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">COOPER BLACK</div>
+    <div class="header-center">
+      <div class="sci-fi-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+      <div class="section-title">// Characters</div>
+    </div>
+  </header>
+
+  <!-- Character Grid -->
+  <main class="character-grid" id="characterGrid">
+    <div class="hex-container" id="hexContainer"></div>
+  </main>
+
+  <!-- Character Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="character-modal" id="characterModal">
+      <button class="modal-close" id="modalClose">&times;</button>
+      
+      <div class="modal-content">
+        <div class="character-showcase">
+          <div class="character-image-container">
+            <div class="image-slideshow" id="imageSlideshow"></div>
+          </div>
+          
+          <div class="character-info">
+            <div class="character-header">
+              <h2 class="character-name" id="modalName">Character Name</h2>
+            </div>
+            
+            <div class="character-stats">
+              <div class="stat-item">
+                <span class="stat-label">Name</span>
+                <span class="stat-value" id="modalNameValue">Unknown</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">Faction</span>
+                <span class="stat-value" id="modalFaction">Unknown</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">Favorite Weapon</span>
+                <span class="stat-value" id="modalWeapon">N/A</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-label">Best Skill</span>
+                <span class="stat-value" id="modalSkill">None</span>
+              </div>
+            </div>
+            
+            <div class="character-bio">
+              <h3>Bio</h3>
+              <p id="modalBio">No data available...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-content">
+      <div class="loading-logo">INITIALIZING...</div>
+      <div class="loading-bar">
+        <div class="loading-progress" id="loadingProgress"></div>
+      </div>
+      <div class="loading-text">Loading Character Database...</div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="scripts/data.js"></script>
+  <script src="scripts/particles.js"></script>
+  <script src="scripts/modal.js"></script>
+  <script src="scripts/effects.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
