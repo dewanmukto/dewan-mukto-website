@@ -59,7 +59,7 @@ const characterData = [
     name: "Amy",
     faction: "Other",
     weapon: "MP7",
-    skill: "idk",
+    skill: "Dedication",
     bio: "Amy Catt, whose real name is Amethyst Julia Dickens, is the sister of Mord Dickens and possesses enhanced strength and reflexes due to a serum injected at Symbiocyte. Known for her silver-blonde hair and stealth, she uses her abilities to fight crime and forms a close relationship with Harrison Garison. She has saved Harrison's life on multiple occasions and is a formidable asset.",
     mainImg: "https://muxai.github.io/cdn/img/Cooper-Black-img/CB_v1-Amethyst-Catt_1.webp",
     images: [
@@ -71,7 +71,7 @@ const characterData = [
     name: "Vander",
     faction: "USMC",
     weapon: "FN FAL",
-    skill: "Bullet Hell",
+    skill: "Survival",
     bio: "Vandermann Vugerton is an U.S. Marine with a miraculous birth, having survived a subway train crash as a baby. Known for his exceptional fighting abilities and tactical talent, he once accidentally destroyed an enemy base. He joins Cooper Black's team after being entrusted with letters from Joe Catshoe and proves to be a skilled gambler.",
     mainImg: "https://muxai.github.io/cdn/img/Cooper-Black-img/CB_v1-Vandermann-Vugerton_1.webp",
     images: [
@@ -83,7 +83,7 @@ const characterData = [
     name: "Dmitri",
     faction: "5474N",
     weapon: "AS VAL",
-    skill: "??",
+    skill: "CYKA BLYAT",
     bio: "Dmitri Makovsvet, codenamed 'Ghost Walker' or 'Dimlight', is a Russian mastermind depicted with albino white hair and red eyes. He is considered by the U.S. President to be the primary cause of the nuke wars. Dimitri commands significant military resources and is responsible for smuggling and deploying dangerous nukes.",
     mainImg: "https://muxai.github.io/cdn/img/Cooper-Black-img/CB_v1-Dmitri-Makovsvet_1.webp",
     images: [
@@ -108,7 +108,7 @@ const characterData = [
     name: "Rochelle",
     faction: "5474N",
     weapon: "PDW90",
-    skill: "Tactics",
+    skill: "Strategy",
     bio: "Rochelle Lisby works in a secret Russian lab and has a striking resemblance to Amy Catt, almost appearing as her twin. Although she is under Dimitri Makovsvet's command, her actions suggest a hidden opposition to his plans. Rochelle is capable of extracting powerful nukes, indicating her significant role in the ongoing conflicts.",
     mainImg: "https://muxai.github.io/cdn/img/Cooper-Black-img/CB_v1-Rochelle-Liz_1.webp",
     images: [
